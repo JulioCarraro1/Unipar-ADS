@@ -1,0 +1,73 @@
+div{
+    width: 200px;
+    height: 300px;
+
+}
+
+.divstick{
+    background-color: aqua;
+    position: sticky;
+    top: 120px;
+    left: 400px;
+}
+.divrelativ{
+    background-color: blueviolet;
+    position: relative;
+    top: 120px;
+    left: 300px
+
+}
+.divfixed{  
+    background-color: brown;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+
+}
+.divstatic{
+    background-color: blue;
+    position: static;
+    top: 200px;
+    left: 300px;
+}
+.divabsolute{
+    background-color: darkgreen;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+}
+.divalingcenter{
+    background-color: grey;
+    margin: 2 auto  ;
+}
+.divalingleft{
+background-color: greenyellow;
+float: left;
+}
+.divalingrigth{ 
+    background-color:  goldenrod;
+    float: right;
+
+}
+.divmenu{
+    background-color: pink;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+
+}
+.logounipar{
+    height: 40px;
+    margin: 5px 5px 5px 5px;
+
+}
+.titulomenu{
+    position: fixed;
+    top: 15px;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: auto;
+}
