@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exibição de Nome e Sobrenome</title>
+	<script>
+		function exibirNomeCompleto() {
+			var nome = document.getElementById("nome").value;
+			var sobrenome = document.getElementById("sobrenome").value;
+			var nomeCompleto = nome + " " + sobrenome;
+			document.getElementById("nomeCompleto").innerHTML = nomeCompleto;
+		}
+	</script>
+</head>
+<body>
+	<h2>Digite seu nome e sobrenome:</h2>
+	<label for="nome">Nome:</label>
+	<input type="text" id="nome"><br><br>
+	<label for="sobrenome">Sobrenome:</label>
+	<input type="text" id="sobrenome"><br><br>
+	<button onclick="exibirNomeCompleto()">Exibir nome completo</button><br><br>
+	<h1 id="nomeCompleto"></h1>
+</body>
+</html>
+
+
+
+
